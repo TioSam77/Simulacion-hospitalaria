@@ -1,10 +1,16 @@
 # 🏥 Simulación Hospitalaria con Paradigmas de Programación
 
-Este proyecto simula el flujo de pacientes en un hospital, aplicando **tres paradigmas de programación distribuidos**:
+[![Python](https://img.shields.io/badge/Python-3.12+-blue)](https://www.python.org/)
+[![Paradigmas](https://img.shields.io/badge/Paradigmas-Concurrencia%2C%20Paralelismo%2C%20Asincron%C3%ADa-orange)](https://github.com/TioSam77/Simulacion-hospitalaria)
+
+Este proyecto simula el flujo de pacientes en un hospital, aplicando **tres paradigmas de programación distribuidos**.
+
+---
 
 ## 💡 Descripción General
 
 Se modela la atención de urgencias de forma realista usando:
+
 - **Concurrencia (threading)** para el registro de pacientes simultáneos.
 - **Control de recursos (semaphore)** para limitar el acceso a camas disponibles.
 - **Paralelismo (multiprocessing)** para el diagnóstico intensivo de CPU.
@@ -22,37 +28,57 @@ Se modela la atención de urgencias de forma realista usando:
 
 ---
 
-## 📌 Estructura del Código
+## 🧠 Paradigmas implementados
 
-| Etapa                | Técnica usada                        |
-|----------------------|--------------------------------------|
-| Registro             | `threading.Thread` + `Semaphore(3)` |
-| Diagnóstico          | `multiprocessing.Pool`              |
-| Seguimiento y alta   | `async def` + `await` (con `asyncio`) |
-
----
-
-## 📊 Resultados
-
-- 5 pacientes son procesados en paralelo y de forma asincrónica.
-- Cada fase simula tiempos de espera, carga computacional y respuesta de red.
-- Output visible en consola con emojis y mensajes descriptivos.
+| Paradigma       | Técnica Usada             | Aplicación                           |
+|-----------------|---------------------------|--------------------------------------|
+| Concurrencia    | `threading.Thread`        | Registro de pacientes simultáneos    |
+| Control recursos| `threading.Semaphore(3)`  | Límite de camas disponibles          |
+| Paralelismo     | `multiprocessing.Pool(3)` | Diagnóstico intensivo (tipo IA)      |
+| Asincronía      | `async def`, `await`      | Seguimiento vía API simulada         |
 
 ---
 
-## 📁 Archivos Incluidos
+## 🖼️ Diagrama del sistema
 
-- `main.py`: Código principal.
-- `Practica 1 421040001.pdf`: Documento formal de entrega.
-- `image.png`: Captura del sistema corriendo.
-- `_Diagrama de flujo del Hospital.pdf`: Diagrama visual del flujo.
+📎 [`_Diagrama de flujo del Hospital.pdf`](./_Diagrama%20de%20flujo%20del%20Hospital.pdf)
 
 ---
 
-## ✅ Créditos y ética
+## 📸 Capturas de ejecución
 
-> El desarrollo fue asistido con ChatGPT para diseño, depuración y documentación del sistema.  
-> Todo fue utilizado como herramienta de apoyo para el aprendizaje, de manera ética y supervisada.
+### Registro concurrente
+![Registro](./image.png)
+
+### Diagnóstico paralelo y seguimiento
+![Diagnóstico](./image2.png)  
+![Expediente](./image3.png)
+
+> Nota: puedes renombrar o subir `image2.png`, `image3.png` si aún no están.
 
 ---
 
+## 📁 Archivos del Proyecto
+
+- 📜 [`main.py`](./main.py) — Código fuente principal
+- 🧾 [`Practica 1 421040001.pdf`](./Practica%201%20421040001.pdf) — Reporte completo
+- 🗺️ [`_Diagrama de flujo del Hospital.pdf`](./_Diagrama%20de%20flujo%20del%20Hospital.pdf)
+
+---
+
+## ✅ Uso ético de IA
+
+Durante la realización de esta práctica se utilizó inteligencia artificial (ChatGPT) como herramienta de asistencia para:
+
+- Diseño inicial del sistema
+- Resolución de errores
+- Aplicación de paradigmas
+- Verificación de requisitos
+
+El uso fue supervisado y documentado de forma responsable, sin sustituir el proceso de aprendizaje.
+
+---
+
+## ✨ Conclusión
+
+El ejercicio permitió aplicar los tres principales paradigmas de programación distribuidos en un caso realista. A través de la simulación, se comprendieron sus ventajas, interacciones y dificultades prácticas.
