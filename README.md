@@ -48,13 +48,12 @@ Se modela la atención de urgencias de forma realista usando:
 ## 📸 Capturas de ejecución
 
 ### Registro concurrente
-![Registro](./image.png)
+![Registro](./image1.png)
 
 ### Diagnóstico paralelo y seguimiento
 ![Diagnóstico](./image2.png)  
 ![Expediente](./image3.png)
 
-> Nota: puedes renombrar o subir `image2.png`, `image3.png` si aún no están.
 
 ---
 
