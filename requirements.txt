@@ -1,0 +1,2 @@
+# Requisitos para Simulación Hospitalaria
+python >= 3.12
