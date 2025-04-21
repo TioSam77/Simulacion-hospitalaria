@@ -62,7 +62,7 @@ Se modela la atención de urgencias de forma realista usando:
 
 - 📜 [`main.py`](./main.py) — Código fuente principal
 - 🧾 [`Practica 1 421040001.pdf`](./Practica%201%20421040001.pdf) — Reporte completo
-- 🗺️ [`_Diagrama de flujo del Hospital.pdf`](./_Diagrama%20de%20flujo%20del%20Hospital.pdf)
+- 🗺️ [`Diagrama de flujo del Hospital.pdf`](./_Diagrama%20de%20flujo%20del%20Hospital.pdf)
 
 ---
 
