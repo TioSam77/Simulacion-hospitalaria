@@ -48,8 +48,6 @@ Se modela la atención de urgencias de forma realista usando:
 
 ## 📸 Capturas de ejecución
 
-## 📸 Capturas de ejecución
-
 ### Registro concurrente
 ![Registro](./image1.png)
 
