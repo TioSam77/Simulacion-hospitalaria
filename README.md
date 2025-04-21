@@ -2,6 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12+-blue)](https://www.python.org/)
 [![Paradigmas](https://img.shields.io/badge/Paradigmas-Concurrencia%2C%20Paralelismo%2C%20Asincron%C3%ADa-orange)](https://github.com/TioSam77/Simulacion-hospitalaria)
+[![License: MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg)](./LICENSE)
 
 Este proyecto simula el flujo de pacientes en un hospital, aplicando **tres paradigmas de programación distribuidos**.
 
