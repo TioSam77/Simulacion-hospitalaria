@@ -41,7 +41,7 @@ Se modela la atención de urgencias de forma realista usando:
 
 ## 🖼️ Diagrama del sistema
 
-📎 [`Diagrama de flujo del Hospital.pdf`](./_Diagrama%20de%20flujo%20del%20Hospital.pdf)
+📎 [`Diagrama de flujo del Hospital.pdf`](./Diagrama%20de%20flujo%20del%20Hospital.pdf)
 
 ---
 
